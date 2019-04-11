@@ -1,11 +1,18 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/header";
+import Main from "./components/main";
+
 
 const App = () => {
     return (
-        <div className="container">
-            <h1>React here!</h1>
+        <div className="page">
+            <Header />
+
+            <Main />
         </div>
+
+
     );
 };
 
